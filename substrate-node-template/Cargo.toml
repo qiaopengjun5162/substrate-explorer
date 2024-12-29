@@ -1,5 +1,8 @@
 [workspace]
-members = ["node", "pallets/template", "pallets/poe", "runtime"]
-resolver = "2"
+members = [
+    "node",
+    "pallets/template",
+    "runtime",
+]
 [profile.release]
 panic = "unwind"
